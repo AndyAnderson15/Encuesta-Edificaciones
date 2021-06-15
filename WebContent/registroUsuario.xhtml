@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"> 
+	
+	
+	
+	
+		
+	
+	
+	
+	
+
+ 
+ <h:form>
+
+	<li> <h:link outcome="index" value="Inicio"
+		style="color:DarkBlue;font-weight:bold;text-decoration:underline;font-size:xx-large;font-family:Segoe UI;font-style:italic;text-align:left;" /></li>
+
+
+	<center> <body bgcolor="B0D0D3"> <h1>Registro de
+	Usuario </h1>
+	
+	<img src="images/usuario.png" width="200" height="120" alt="usuario" />
+		<li>
+		</li>
+	
+	 <h:panelGrid bgcolor="F7E3AF" columns="4">
+
+
+		<label>Perfil:</label>
+
+		<h:inputText value="#{registro.id_perfil}" id="perfil" required="true" requiredMessage="El login es obligatorio" >
+		<f:validateRequired/>
+		</h:inputText>*
+		<h:message for="perfil" style="color:red" />
+
+
+
+		
+		<label>Login:</label>
+
+		<h:inputText value="#{registro.login}" id="login" required="true" requiredMessage="El login es obligatorio" >
+		<f:validateRequired/>
+		</h:inputText>*
+		<h:message for="login" style="color:red" />
+
+
+
+		<label>Clave:</label>
+		<h:inputText value="#{registro.clave}" id="clave" required="true"
+			requiredMessage="La clave es obligatorio">
+		<f:validateRequired/>
+		</h:inputText>*
+		<h:message for="clave" style="color:red" />
+		
+		
+		
+
+	</h:panelGrid> <div> <h:commandButton action="#{registro.registrar}"
+		value="Registrar" /> <input type="reset" value="Restablecer" /> </div> </body></center>
+
+</h:form> </html>

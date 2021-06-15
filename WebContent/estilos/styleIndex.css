@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border - box;
+}
+
+
+.portada{
+	width: 100%;
+	height: 100% !important;
+	background: url("logo2.png");
+	background-size: 100%; 
+	animation: movimiento 15s infinite linear alternate;
+	background-repeat: no-repeat;
+	
+}
+
+@keyframes movimiento{
+	from{
+		background-position: bottom left;
+	}	
+	to{
+		background-position: top right;
+	}
+	
+	
+}
+
+
+.capa{
+	width: 100%;
+	height: 100%;
+	background: hsla(120, 60%, 70%, 0.3);
+}
+
+.container{
+	
+	margin-left: 40px;
+
+}
+
+h1{
+	color: #fff;
+	font-family: berlin sans fb;
+	font-weight: 100;
+	transform: translateY(100%);
+}
+
+p{
+	
+	width: 100%;
+	max-width: 500px;
+	color: #fff;
+	font-family: arial;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.boton{
+	color:#172A3A;
+	margin-left: 40px;
+	font-family: arial narrow;
+	width: 20%;
+	padding: 10px 20px;
+	transition: all 500ms;
+	border: 5px solid  rgba(0, 0, 255, 0.3);
+	
+}
+
+.boton:hover{
+	background: #B9FAF8;
+	color: #434343;
+	cursor: pointer;
+}
+
+.piePagina{
+	background:darkcyan;
+    text-align: center;
+        font-size: 3em;  
+}
