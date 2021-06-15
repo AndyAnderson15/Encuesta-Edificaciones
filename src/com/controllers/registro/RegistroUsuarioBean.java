@@ -20,7 +20,7 @@ public class RegistroUsuarioBean implements Serializable {
 
 	
 	private static final long serialVersionUID=1L;
-	private int id_us;
+	private int id_usuar;
 	private int id_perfil;
 
 	private String login;
