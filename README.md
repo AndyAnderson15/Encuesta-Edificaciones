@@ -29,8 +29,8 @@ La pagina web tiene acceso a la base de datos sobre las encuestas. La Web es acc
 
 # Licencia 🛡️
 <p>Nuestro software tiene la licencia de <a href="https://es.wikipedia.org/wiki/Licencia_MIT#:~:text=La%20licencia%20MIT%20es%20una,%2C%20Massachusetts%20Institute%20of%20Technology">MIT</a></p>
-# Autores 💻
 
+# Autores 💻
 * <p>Jeferson Sandoval - <a href="https://github.com/Jeferson899">Jeferson899</a></p>
 * <p>Jorge Pila - <a href="https://github.com/JrgPila99">JrgPila99</a></p>
 * <p>Anderson Ladino - <a href="https://github.com/AndyAnderson15">AndyAnderson15</a></p>
