@@ -10,7 +10,7 @@ Puede descargarse las encuentas que proporcionar información actualizada sobre 
 Se debe gestionar una base de datos multidimensional (postgres), cuya información se obtenga de fuentes de datos. Se debe tratar el ingreso de usuarios especificos (administrador, clientes e invitados). El usuario admistrador podrá acceder a la lista de los clientes que se han creado como  tambien podra eliminarlos. Los usuarios clientes podran generar los reportes sobre la base de datos. El usuario invitado podra acceder solo a la información de la aplicación y sus desarolladores.
 # Introducción 📃
 La pagina web tiene acceso a la base de datos sobre las encuestas. La Web es accesible desde cualquier navegador por Internet y tiene información referente a los indicadores que maneja el sistema y gráficas básicas de los reportes.
-# Herramientas fundamentales para el desarollo de la Aplicación ⚒️
+# Herramientas fundamentales para el desarrollo de la Aplicación ⚒️
 * WildFly 22
 * Eclipse JEE
 * GitHub
