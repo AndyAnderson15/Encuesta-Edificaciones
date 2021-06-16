@@ -21,5 +21,5 @@ La pagina web tiene acceso a la base de datos sobre las encuestas. La Web es acc
 * Draw.io componente Edge
 * PROJECT
 # Wiki 🌐
-Si deseas mas información del proyecto ingresa a nuestra 
+Si deseas mas información del proyecto ingresa a nuestra https://github.com/AndyAnderson15/Encuesta-Edificaciones/wiki
 
