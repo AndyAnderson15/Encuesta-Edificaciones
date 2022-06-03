@@ -1,4 +1,4 @@
-# Encuesta-Edificaciones
+# Encuesta-Edificacioness
 Proyecto Integrador - Quinto Semestre 
 # La Encuesta Nacional de Edificaciones (ENED) 📊
 Desarollo de una aplicación web que esta asociada a una base de datos multidimensional (postgres), utilizando herramientas de software libre.
